@@ -1,0 +1,370 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    
+}
+.contanier{
+    max-width: 1580px;
+    margin: 0;
+    overflow-x: hidden;
+}
+.box{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    display: flex;
+    padding-top: 29px;
+    gap: 20px;
+    padding-left: 75px;
+}
+.text{
+    color: white;
+}
+.text_1{
+    color: rgba(255, 255, 255, 0.3)
+    ;
+}
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 40px;
+}
+nav,ul{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.text_2{
+    margin-top: -10px;
+    color: black;
+    margin-left: -60px;
+}
+.text_3{
+    color: rgb(57, 56, 56);
+    margin-top: 10px;
+    font-size: 20px;
+    margin-left: 70px;
+}
+.text_4{
+    color: rgb(75, 75, 75);
+    margin-top: 10px;
+    font-size: 20px;
+}
+.button{
+    margin-top: -5px;
+    height: 40px;
+    width: 70px;
+    border-radius: 4px;
+    border: none;
+    margin-left: 240px;
+    transition: all 0.7s ease;
+}
+.button:hover{
+    background-color: rgba(255, 192, 0, 1);
+}
+.button_1{
+    background-color: rgba(255, 192, 0, 1);
+    margin-top: -5px;
+    height: 40px;
+    width: 150px;
+    border-radius: 4px;
+    border: none;
+    margin-left: -100px;
+    transition: all 0.7s ease;
+}
+.button_1:hover{
+    background-color: rgba(0, 0, 0, 0.05);
+}
+.img{
+    margin-left: -120px;
+    width: 30px;
+    height: 30px;
+}
+.p-onas{
+    font-family: Montserrat;
+font-weight: 700;
+font-size: 34px;
+leading-trim: NONE;
+line-height: 140%;
+letter-spacing: 0.25px;
+text-align: center;
+font-variant-numeric-figure: lining-nums;
+font-variant-numeric-spacing: proportional-nums;
+
+
+
+}
+.o-onas{
+    width: 557px;
+height: 212px;
+top: 311px;
+left: 147px;
+angle: 0 deg;
+opacity: 1;
+padding-left: 50px;
+padding-top: 100px;
+
+}
+.p1{
+    font-family: Montserrat;
+font-weight: 700;
+font-size: 24px;
+leading-trim: NONE;
+line-height: 140%;
+letter-spacing: 0%;
+font-variant-numeric-figure: lining-nums;
+font-variant-numeric-spacing: proportional-nums;
+
+}
+.p-2{
+    font-family: Montserrat;
+font-weight: 400;
+font-size: 14px;
+leading-trim: NONE;
+line-height: 170%;
+letter-spacing: 0.25px;
+font-variant-numeric-figure: lining-nums;
+font-variant-numeric-spacing: proportional-nums;
+
+}
+.img-onas{
+    width: 460px;
+height: 411px;
+top: 249px;
+left: 833px;
+angle: 0 deg;
+opacity: 1;
+padding-left: 30px;
+
+}
+.lorem-onas{
+   display: flex;
+   gap: 200px;
+   padding-top: 50px;
+
+   
+
+}
+.text_8{
+    font-size: 50px;
+    text-align: center;
+    padding-top: 90px;
+}
+.card{
+    display: flex;
+    justify-content: space-evenly;
+}
+.card_1{
+    margin-top: 30px;
+    border-radius: 12px;
+    background-color: white;
+    width: 350px;
+    height: 200px;
+    text-align: center;
+    align-items: center;
+}
+.img_2{
+    margin-top: 40px;
+    width: 40px;
+    height: 40px;
+}
+.text_9{
+    margin-top: 50px;
+}
+
+.box_5{
+    background: radial-gradient(100% 1071.07% at 0% 0%, #0F0D2B 0%, #0C0926 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    width: 100%;
+    height: 400px;
+    margin-top: 350px;
+}
+.img_5{
+    margin-top: -180px;
+    margin-left: 50px;
+}
+.text_12{
+    color: white;
+    margin-left: 600px;
+    margin-top: -320px;
+    font-size: 40px;
+}
+.text_13{
+    color: white;
+    margin-left: 600px;
+    margin-top: 40px;
+    font-size: 19px;
+}
+.d{
+    margin-top: 30px;
+    display: flex;
+}
+.button_2{
+    background-color: white;
+    border-radius: 6px;
+    width: 160px;
+    height: 55.5px;
+    margin-left: 600px;
+    margin-top: 0px;
+    border: none;
+}
+.button_3{
+    background-color: white;
+    border-radius: 6px;
+    width: 150px;
+    height: 50px;
+    margin-left: 30px;
+    margin-top: 0px;
+    border: none;
+}
+.onas-p1{
+    font-family: Inter;
+font-weight: 900;
+font-size: 46px;
+leading-trim: NONE;
+line-height: 64px;
+letter-spacing: 0px;
+font-variant-numeric-figure: lining-nums;
+font-variant-numeric-spacing: proportional-nums;
+
+}
+.lorem-p1{
+font-family: Inter;
+font-weight: 700;
+font-size: 18px;
+leading-trim: NONE;
+line-height: 32px;
+letter-spacing: 0px;
+font-variant-numeric-figure: lining-nums;
+font-variant-numeric-spacing: proportional-nums;
+width: 166px;
+height: 136px;
+top: 1936px;
+left: 833px;
+angle: 0 deg;
+opacity: 1;
+
+
+}
+
+.lorem-p2{
+font-family: Inter;
+font-weight: 400;
+font-size: 18px;
+leading-trim: NONE;
+line-height: 32px;
+letter-spacing: 0px;
+font-variant-numeric-figure: lining-nums;
+font-variant-numeric-spacing: proportional-nums;
+
+}
+.p-container{
+    display: flex;
+}
+
+.tetx_onas{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bosh{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.onas_text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.po{
+   width: 166px;
+
+
+angle: 0 deg;
+opacity: 1;
+
+}
+.footer{
+    background-color: white;
+    height: 370px;
+    margin-top: 100px;
+}
+.g{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+.g1{
+    display: flex;
+    padding-top: 30px;
+}
+.t100{
+    margin-left: 140px;
+}
+.t101{
+    margin-left: 175px;
+}
+.t102{
+    margin-left: 265px;
+}
+.t103{
+    margin-left: 290px;
+}
+.t{
+    margin-left: 140px;
+}
+.t1{
+    margin-left: 175px;
+}
+.t2{
+    margin-left: 265px;
+}
+.t3{
+    margin-left: 290px;
+}
+.t4{
+    margin-left: 550px;
+    margin-top: -60px;
+}
+.t6{
+    margin-left: 263px;
+    margin-top: -60px;
+}
+.t7{
+    margin-left: 300px;
+    margin-top: -60px;
+}
+.img_7{
+   
+    margin-left: 130px;
+    height: 140px;
+}
+
+.t8{
+    margin-left: 932px;
+    margin-top: -190px;
+}
+.t9{
+    margin-left: 270px;
+    margin-top: -190px;
+}
+.t10{
+    margin-left: 932px;
+    margin-top: -180px;
+}
+.t11{
+    margin-left: 232px;
+    margin-top: -180px;
+}
+.t12{
+    margin-top: -140px;
+    margin-left: 1275px;
+}
+.t13{
+    margin-left: 1275px;
+    margin-top: 18px;
+}

@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    
+}
+.contanier{
+    max-width: 1580px;
+    margin: 0;
+    overflow-x: hidden;
+}
+.box{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    display: flex;
+    padding-top: 29px;
+    gap: 20px;
+    padding-left: 75px;
+}
+.text{
+    color: white;
+}
+.text_1{
+    color: rgba(255, 255, 255, 0.3)
+    ;
+}
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 40px;
+}
+nav,ul{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.text_2{
+    margin-top: -10px;
+    color: black;
+    margin-left: -60px;
+}
+.text_3{
+    color: rgb(57, 56, 56);
+    margin-top: 10px;
+    font-size: 20px;
+    margin-left: 70px;
+}
+.text_4{
+    color: rgb(75, 75, 75);
+    margin-top: 10px;
+    font-size: 20px;
+}
+.button{
+    margin-top: -5px;
+    height: 40px;
+    width: 70px;
+    border-radius: 4px;
+    border: none;
+    margin-left: 240px;
+    transition: all 0.7s ease;
+}
+.button:hover{
+    background-color: rgba(255, 192, 0, 1);
+}
+.button_1{
+    background-color: rgba(255, 192, 0, 1);
+    margin-top: -5px;
+    height: 40px;
+    width: 150px;
+    border-radius: 4px;
+    border: none;
+    margin-left: -100px;
+    transition: all 0.7s ease;
+}
+.button_1:hover{
+    background-color: rgba(0, 0, 0, 0.05);
+}
+.img{
+    margin-left: -120px;
+    width: 30px;
+    height: 30px;
+}
+.vxod-p{
+    font-family: Montserrat;
+font-weight: 700;
+font-size: 34px;
+leading-trim: NONE;
+line-height: 140%;
+letter-spacing: 0.25px;
+text-align: center;
+font-variant-numeric-figure: lining-nums;
+font-variant-numeric-spacing: proportional-nums;
+
+}
+.img-vxod{
+    width: 658px;
+height: 394px;
+angle: 0 deg;
+opacity: 1;
+top: 280px;
+left: 62px;
+
+}
+.par{
+    font-family: Open Sans;
+font-weight: 700;
+font-size: 16px;
+leading-trim: NONE;
+line-height: 24px;
+letter-spacing: 0px;
+font-variant-numeric-figure: lining-nums;
+font-variant-numeric-spacing: proportional-nums;
+
+}
+.but{
+    font-family: Inter;
+font-weight: 700;
+font-size: 20px;
+leading-trim: NONE;
+line-height: 34px;
+letter-spacing: 0px;
+text-align: center;
+font-variant-numeric-figure: lining-nums;
+font-variant-numeric-spacing: proportional-nums;
+width: 262px;
+height: 40px;
+angle: 0 deg;
+opacity: 1;
+background-color: yellow;
+ border-radius: 4px;
+    border: none;
+transition: all 0.7s ease;
+}
+
+.but:hover{
+     font-family: Inter;
+font-weight: 700;
+font-size: 20px;
+leading-trim: NONE;
+line-height: 34px;
+letter-spacing: 0px;
+text-align: center;
+font-variant-numeric-figure: lining-nums;
+font-variant-numeric-spacing: proportional-nums;
+width: 262px;
+height: 40px;
+angle: 0 deg;
+opacity: 1;
+background-color: rgb(15, 15, 15);
+color: yellow;
+
+ border-radius: 4px;
+    border: none;
+}
+.lorem-vxod{
+    display: flex;
+}
+.vxod_par{
+    width: 555px;
+height: 252px;
+angle: 0 deg;
+opacity: 1;
+top: 347px;
+left: 780px;
+padding-left: 350px;
+padding-top: 150px;
+margin: 10px; ;
+
+
+}
+.footer{
+    background-color: white;
+    height: 370px;
+    margin-top: 100px;
+}
+.g{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+.g1{
+    display: flex;
+    padding-top: 30px;
+}
+.t100{
+    margin-left: 140px;
+}
+.t101{
+    margin-left: 175px;
+}
+.t102{
+    margin-left: 265px;
+}
+.t103{
+    margin-left: 290px;
+}
+.t{
+    margin-left: 140px;
+}
+.t1{
+    margin-left: 175px;
+}
+.t2{
+    margin-left: 265px;
+}
+.t3{
+    margin-left: 290px;
+}
+.t4{
+    margin-left: 550px;
+    margin-top: -60px;
+}
+.t6{
+    margin-left: 263px;
+    margin-top: -60px;
+}
+.t7{
+    margin-left: 300px;
+    margin-top: -60px;
+}
+.img_7{
+   
+    margin-left: 130px;
+    height: 140px;
+}
+
+.t8{
+    margin-left: 932px;
+    margin-top: -190px;
+}
+.t9{
+    margin-left: 270px;
+    margin-top: -190px;
+}
+.t10{
+    margin-left: 932px;
+    margin-top: -180px;
+}
+.t11{
+    margin-left: 232px;
+    margin-top: -180px;
+}
+.t12{
+    margin-top: -140px;
+    margin-left: 1275px;
+}
+.t13{
+    margin-left: 1275px;
+    margin-top: 18px;
+}

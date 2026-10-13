@@ -1,0 +1,378 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+   
+}
+.contanier{
+    max-width: 1580px;
+    margin: 0;
+    overflow-x: hidden;
+}
+.box{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    display: flex;
+    padding-top: 29px;
+    gap: 20px;
+    padding-left: 75px;
+}
+.text{
+    color: white;
+}
+.text_1{
+    color: rgba(255, 255, 255, 0.3)
+    ;
+}
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 40px;
+}
+nav,ul{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.text_2{
+    margin-top: -10px;
+    color: black;
+    margin-left: -60px;
+}
+.text_3{
+    color: rgb(57, 56, 56);
+    margin-top: 10px;
+    font-size: 20px;
+    margin-left: 70px;
+}
+.text_4{
+    color: rgb(75, 75, 75);
+    margin-top: 10px;
+    font-size: 20px;
+}
+.button{
+    margin-top: -5px;
+    height: 40px;
+    width: 70px;
+    border-radius: 4px;
+    border: none;
+    margin-left: 240px;
+    transition: all 0.7s ease;
+}
+.button:hover{
+    background-color: rgba(255, 192, 0, 1);
+}
+.button_1{
+    background-color: rgba(255, 192, 0, 1);
+    margin-top: -5px;
+    height: 40px;
+    width: 150px;
+    border-radius: 4px;
+    border: none;
+    margin-left: -100px;
+    transition: all 0.7s ease;
+}
+.button_1:hover{
+    background-color: rgba(0, 0, 0, 0.05);
+}
+.img{
+    margin-left: -120px;
+    width: 30px;
+    height: 30px;
+}
+.box_1{
+    background-color: rgba(255, 192, 0, 1);
+    height: 1000px;
+    margin-top: 30px;
+}
+.box_2{
+    margin-top: -800px;
+    background-color: black;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+}
+.text_5{
+    padding-top: 50px;
+    color: white;
+    margin-left: 75px;
+    font-size: 45px;
+}
+.text_6{
+    color: rgb(222, 222, 222);
+    margin-left: 75px;
+    margin-top: 40px;
+    font-size: 17px;
+}
+.text_7{
+    color: Yellow;
+    margin-left: 75px;
+    margin-top: 40px;
+    font-size: 20px;
+    
+}
+.img_1{
+    margin-left: 800px;
+    margin-top: -517px;
+    height: 1002px;
+}
+section{
+    margin-top: 200px;
+    height: 1500px;
+    background-color: rgba(242, 243, 247, 1);
+}
+.text_8{
+    font-size: 50px;
+    text-align: center;
+    padding-top: 90px;
+}
+.card{
+    display: flex;
+    justify-content: space-evenly;
+}
+.card_1{
+    margin-top: 30px;
+    border-radius: 12px;
+    background-color: white;
+    width: 350px;
+    height: 200px;
+    text-align: center;
+    align-items: center;
+}
+.img_2{
+    margin-top: 40px;
+    width: 40px;
+    height: 40px;
+}
+.text_9{
+    margin-top: 50px;
+}
+.card_2{
+    margin-top: 50px;
+    height: 400px;
+    height: 550px;
+    background-color: rgba(255, 255, 255, 1);
+}
+.text_10{
+    margin-left: 15px;
+}
+.box_3{
+    display: flex;
+    margin-top: 5px;
+}
+.img_4{
+    margin-left: 15px;
+}
+.text_11{
+    margin-left: 80px;
+}
+.btn{
+    background-color: rgba(255, 192, 0, 1);
+    border: none;
+    height: 45px;
+    width: 225px;
+    margin-left: 18px;
+    margin-top: 10px;
+    border-radius: 6px;
+    transition: all 1s ease;
+}
+.btn:hover{
+    background-color: blue;
+}
+.box_4{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+.card_4{
+    background-color: black;
+    color: yellow;
+    width: 264px;
+    height: 80px;
+    margin-top: -80px;
+    margin-left: 93px;
+    text-align: center;
+    padding-top: 25px;
+}
+.box_5{
+    background: radial-gradient(100% 1071.07% at 0% 0%, #0F0D2B 0%, #0C0926 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    width: 100%;
+    height: 400px;
+    margin-top: 350px;
+}
+.img_5{
+    margin-top: -180px;
+    margin-left: 50px;
+}
+.text_12{
+    color: white;
+    margin-left: 600px;
+    margin-top: -320px;
+    font-size: 40px;
+}
+.text_13{
+    color: white;
+    margin-left: 600px;
+    margin-top: 40px;
+    font-size: 19px;
+}
+.d{
+    margin-top: 30px;
+    display: flex;
+}
+.button_2{
+    background-color: white;
+    border-radius: 6px;
+    width: 160px;
+    height: 55.5px;
+    margin-left: 600px;
+    margin-top: 0px;
+    border: none;
+}
+.button_3{
+    background-color: white;
+    border-radius: 6px;
+    width: 150px;
+    height: 50px;
+    margin-left: 30px;
+    margin-top: 0px;
+    border: none;
+}
+.img_6{
+    margin-top: 1310px;
+}
+.l{
+    display: flex;
+    margin-top: 500px;
+}
+.box_6{
+    background-color: white;
+    width: 1000px;
+    margin-left: 0px;
+    height: 470px;
+    margin-top: 1310px;
+}
+.text_14{
+    margin-left: 30px;;
+    margin-top: 90px;
+    font-size: 45px;
+}
+.text_15{
+    margin: 30px;
+    font-size: 18px;
+}
+.button_4{
+    background-color: rgba(255, 192, 0, 1);
+    height: 40px;
+    width: 150px;
+    border-radius: 4px;
+    border: none;
+    margin: 30px;
+    margin-top: -5px;
+    transition: all 0.7s ease;
+}
+.box_7{
+    height: 600px;
+    width: 100%;
+    background-color: rgba(255, 192, 0, 1);
+    margin-top: 280px;
+}
+.text_16{
+    font-size: 50px;
+    text-align: center;
+    padding-top: 240px;
+}
+.K{
+    background-color: rgba(242, 243, 247, 1);
+    width: 100%;
+    height: 80px;
+}
+  
+
+.t9{
+    margin-left: 311px;
+    margin-top: -190px;
+}
+.footer{
+    background-color: white;
+    height: 370px;
+    margin-top: 100px;
+}
+.g{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+.g1{
+    display: flex;
+    padding-top: 30px;
+}
+.t100{
+    margin-left: 140px;
+}
+.t101{
+    margin-left: 175px;
+}
+.t102{
+    margin-left: 265px;
+}
+.t103{
+    margin-left: 290px;
+}
+.t{
+    margin-left: 140px;
+}
+.t1{
+    margin-left: 175px;
+}
+.t2{
+    margin-left: 265px;
+}
+.t3{
+    margin-left: 290px;
+}
+.t4{
+    margin-left: 550px;
+    margin-top: -60px;
+}
+.t6{
+    margin-left: 263px;
+    margin-top: -60px;
+}
+.t7{
+    margin-left: 300px;
+    margin-top: -60px;
+}
+.img_7{
+   
+    margin-left: 130px;
+    height: 140px;
+}
+
+.t8{
+    margin-left: 932px;
+    margin-top: -190px;
+}
+.t9{
+    margin-left: 270px;
+    margin-top: -190px;
+}
+.t10{
+    margin-left: 932px;
+    margin-top: -180px;
+}
+.t11{
+    margin-left: 232px;
+    margin-top: -180px;
+}
+.t12{
+    margin-top: -140px;
+    margin-left: 1275px;
+}
+.t13{
+    margin-left: 1275px;
+    margin-top: 18px;
+}
